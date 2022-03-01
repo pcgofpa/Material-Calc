@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programming/AndroidProjects/FenceCalculator_v20/Material-Calc/app/src/main/res/layout/activity_fence_calc.xml" value="0.17239583333333333" />
+        <entry key="..\:/Programming/AndroidProjects/FenceCalculator_v20/Material-Calc/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Ginter/Desktop/Projects/fence-calc/app/src/main/res/layout/activity_fence_calc.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Ginter/Desktop/Projects/fence-calc/app/src/main/res/layout/activity_flooring.xml" value="0.25" />
         <entry key="..\:/Users/Ginter/Desktop/Projects/fence-calc/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
