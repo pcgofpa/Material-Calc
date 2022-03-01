@@ -7,4 +7,12 @@
     android:background="#0d1d82"
     tools:context=".FenceCalc">
 
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
