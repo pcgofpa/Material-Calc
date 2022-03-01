@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialCalc">
         <activity
+            android:name=".Flooring"
+            android:exported="false" />
+        <activity
+            android:name=".FenceCalc"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
