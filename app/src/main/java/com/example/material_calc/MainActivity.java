@@ -23,5 +23,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, FenceCalc.class));
             }
         });
+
+        Button Floor = (Button) findViewById(R.id.Floor);
+        Floor.setText("Flooring Calculator");
+        Floor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Flooring.class));
+            }
+        });
     }
 }
