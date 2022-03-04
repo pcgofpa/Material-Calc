@@ -5,7 +5,7 @@
     style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0d1d82"
+    android:background="@drawable/home_logo"
     android:textAlignment="center"
     tools:context=".FenceCalc">
 

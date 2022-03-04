@@ -4,41 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/home_logo"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/Fence"
         android:layout_width="160dp"
         android:layout_height="64dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#0d1d82"
         android:gravity="center_horizontal"
         android:textAlignment="center"
-        android:backgroundTint="#0d1d82"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Exit"
-        android:layout_width="120dp"
-        android:layout_height="64dp"
-        android:layout_marginBottom="100dp"
-        android:textAlignment="center"
-        android:backgroundTint="#910000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/Floor"
         android:layout_width="160dp"
         android:layout_height="64dp"
-        android:layout_marginTop="80dp"
-        android:textAlignment="center"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#4d4c4b"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Fence" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
