@@ -10,11 +10,10 @@
     <Button
         android:id="@+id/Fence"
         android:layout_width="160dp"
-        android:layout_height="64dp"
+        android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="104dp"
-        android:backgroundTint="#0d1d82"
-        android:gravity="center_horizontal"
+        android:backgroundTint="#1f1f7a"
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,10 +21,11 @@
     <Button
         android:id="@+id/Floor"
         android:layout_width="160dp"
-        android:layout_height="64dp"
+        android:layout_height="80dp"
         android:layout_marginTop="104dp"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="#4d4c4b"
+        android:backgroundTint="#009900"
+        android:textColor="#e0e0eb"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
