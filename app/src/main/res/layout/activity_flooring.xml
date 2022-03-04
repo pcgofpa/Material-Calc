@@ -2,9 +2,78 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flooringact"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4d4c4b"
+    android:background="@drawable/home_logo"
     tools:context=".Flooring">
 
+    <TextView
+        android:id="@+id/tot_area_label"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/widthLabel" />
+
+    <TextView
+        android:id="@+id/widthLabel"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lenLabel" />
+
+    <Button
+        android:id="@+id/FloorCalc"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tot_area"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tot_area_label"
+        app:layout_constraintTop_toBottomOf="@+id/wid_in" />
+
+    <TextView
+        android:id="@+id/lenLabel"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/len_in"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lenLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/wid_in"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/widthLabel"
+        app:layout_constraintTop_toBottomOf="@+id/len_in" />
 </androidx.constraintlayout.widget.ConstraintLayout>
