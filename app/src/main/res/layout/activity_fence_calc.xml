@@ -13,8 +13,10 @@
         android:id="@+id/Home"
         android:layout_width="104dp"
         android:layout_height="64dp"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="58dp"
         android:layout_marginBottom="60dp"
+        android:backgroundTint="#1f1f7a"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -22,32 +24,36 @@
         android:id="@+id/Input1Label"
         android:layout_width="96dp"
         android:layout_height="48dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="80dp"
-        android:background="#5A3939"
-        android:textColor="#E4D5D5"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="16dp"
+        android:background="#660000"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/FenceTitle" />
 
     <EditText
         android:id="@+id/Input1"
         android:layout_width="120dp"
         android:layout_height="48dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="57dp"
+        android:background="#660000"
         android:ems="10"
         android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Input1Label"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/FenceTitle" />
 
     <TextView
         android:id="@+id/FenceTitle"
         android:layout_width="296dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="#ffffff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
