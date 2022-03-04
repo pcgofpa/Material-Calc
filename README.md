@@ -12,3 +12,8 @@ For contractors this application can assist with generating quotes as this appli
 2. Kennedy, Joshua
 3. Kraffert, Nicholas
 4. Rodriguez, Shantay
+5. Asamani-antwi, Nathan
+
+## Screenshots from the Emulator within Android Studio
+
+### Home Screen
