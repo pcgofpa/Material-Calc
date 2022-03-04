@@ -17,3 +17,6 @@ For contractors this application can assist with generating quotes as this appli
 ## Screenshots from the Emulator within Android Studio
 
 ### Home Screen
+![HomeScreen](https://user-images.githubusercontent.com/59085936/156727852-41548a2d-c4bd-4c95-b6a3-6ad5e732aa91.jpg)
+
+This home screen can have the logo of your company replace the current generic logo.
