@@ -26,7 +26,7 @@ For contractors this application can assist with generating quotes as this appli
 
 <h2 align="center"> Home Screen </h2>
   <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/59085936/156727852-41548a2d-c4bd-4c95-b6a3-6ad5e732aa91.jpg" alt = "Home Screen">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/156727852-41548a2d-c4bd-4c95-b6a3-6ad5e732aa91.jpg" alt = "Home Screen">
 
   This home screen can have the logo of your company replace the current generic logo.
 </p>
