@@ -8,15 +8,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import java.lang.*;
 
 public class Flooring extends AppCompatActivity {
+    double x = 1.1;
+
 
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flooring);
-        TextView lenLabel, widthLabel, tot_area_label, tot_area;
+        TextView lenLabel, widthLabel, tot_area;
         EditText len_in, wid_in;
 
 //set text of the labels
@@ -24,8 +27,6 @@ public class Flooring extends AppCompatActivity {
         lenLabel.setText("Enter the length: ");
         widthLabel = findViewById(R.id.widthLabel);
         widthLabel.setText("Enter the width: ");
-        tot_area_label = findViewById(R.id.tot_area_label);
-        tot_area_label.setText("The total area is: ");
         tot_area = findViewById(R.id.tot_area);
 
 //get input
@@ -38,12 +39,14 @@ public class Flooring extends AppCompatActivity {
         FloorCalc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
-                float length = Float.parseFloat(String.valueOf(len_in));
-                float width = Float.parseFloat(String.valueOf(wid_in));
-                float area = length * width;
-                tot_area.setText(String.valueOf(area));
-*/
+/* Pull user input from the edittext inputs and calcualte materials needed adding 10% to the area
+to account for mistakes with cutting. */
+                int a = Integer.parseInt(len_in.getText().toString());
+                int b = Integer.parseInt(wid_in.getText().toString());
+                double area_result = (a*b);
+                double flooring_mat = (area_result*x);
+                int rounded_floor = (int) Math.ceil(flooring_mat);
+                tot_area.setText("Adding the 10% to account for cutting order: " + Double.toString(rounded_floor) + " sq. ft.");
             }
         });
 
