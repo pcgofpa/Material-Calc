@@ -31,3 +31,10 @@ For contractors this application can assist with generating quotes as this appli
   This home screen can have the logo of your company replace the current generic logo.
 </p>
 
+<h2 align="center"> Flooring Material Calculator </h2>
+<p align = "center">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/156916314-f14aadf9-a90d-40f1-90da-897ba0a25943.png" alt="Flooring Material Calculator">
+  
+  Example of the Flooring Material Calculator screen. The floor material calculator calculates the area provided by the user. It then adds 10% to the area before giving the user
+  a square footage to order. The extra 10% is to account for errors in cutting the materials, or sections of the material that is bad. 
+</p>
