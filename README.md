@@ -16,7 +16,6 @@ For contractors this application can assist with generating quotes as this appli
     <li> Kennedy, Joshua</li>
     <li> Kraffert, Nicholas</li>
     <li>Rodriguez, Shantay</li>
-    <li> Asamani-antwi, Nathan</li>
   </ol>
 </p>
 
