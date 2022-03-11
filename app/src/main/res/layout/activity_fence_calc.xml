@@ -5,9 +5,23 @@
     style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_logo"
+    android:background="@drawable/floor_background"
     android:textAlignment="center"
     tools:context=".FenceCalc">
+
+    <EditText
+        android:id="@+id/input3"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:background="#660000"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2" />
 
     <Button
         android:id="@+id/Home"
@@ -22,9 +36,9 @@
 
     <TextView
         android:id="@+id/Input1Label"
-        android:layout_width="96dp"
+        android:layout_width="160dp"
         android:layout_height="48dp"
-        android:layout_marginStart="58dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="#660000"
         android:textAlignment="center"
@@ -33,11 +47,11 @@
         app:layout_constraintTop_toBottomOf="@+id/FenceTitle" />
 
     <EditText
-        android:id="@+id/Input1"
-        android:layout_width="120dp"
+        android:id="@+id/input1"
+        android:layout_width="160dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="57dp"
+        android:layout_marginEnd="16dp"
         android:background="#660000"
         android:ems="10"
         android:inputType="numberSigned"
@@ -58,4 +72,64 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/input2_Label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#660000"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Input1Label" />
+
+    <TextView
+        android:id="@+id/input3_Label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#660000"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2_Label" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:background="#660000"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input1" />
+
+    <TextView
+        android:id="@+id/perim"
+        android:layout_width="296dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="64dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input3" />
+
+    <Button
+        android:id="@+id/calc_fence"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perim" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FenceResult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floor_background"
+    tools:context=".FenceResults">
+
+    <TextView
+        android:id="@+id/concrete_result"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/concrete_label"
+        app:layout_constraintTop_toBottomOf="@+id/runner_result" />
+
+    <TextView
+        android:id="@+id/fen_res_title"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="58dp"
+        android:background="#80BF8040"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/perim_label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fen_res_title" />
+
+    <TextView
+        android:id="@+id/perim_result"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perim_label"
+        app:layout_constraintTop_toBottomOf="@+id/fen_res_title" />
+
+    <TextView
+        android:id="@+id/post_label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perim_label" />
+
+    <TextView
+        android:id="@+id/post_result"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/post_label"
+        app:layout_constraintTop_toBottomOf="@+id/perim_result" />
+
+    <TextView
+        android:id="@+id/picket_label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_label" />
+
+    <TextView
+        android:id="@+id/picket_result"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/picket_label"
+        app:layout_constraintTop_toBottomOf="@+id/post_result" />
+
+    <TextView
+        android:id="@+id/runner_label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/picket_label" />
+
+    <TextView
+        android:id="@+id/runner_result"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/runner_label"
+        app:layout_constraintTop_toBottomOf="@+id/picket_result" />
+
+    <TextView
+        android:id="@+id/concrete_label"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:background="#80BF8040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/runner_label" />
+</androidx.constraintlayout.widget.ConstraintLayout>
