@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.util.Objects;
@@ -21,7 +23,10 @@ public class FenceCalc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fence_calc);
 
+        RadioGroup gate;
+        RadioButton one_gate, two_gates;
         EditText input1, input2, input3;
+//Set default of input to 0         
         input1 = findViewById(R.id.input1);
         input1.setText("0");
         input2 = findViewById(R.id.input2);
@@ -29,10 +34,7 @@ public class FenceCalc extends AppCompatActivity {
         input3 = findViewById(R.id.input3);
         input3.setText("0");
 
-//Calculate user input
-
-
-        //Set TextView Label Text
+//Set TextView Label Text
         TextView title = findViewById(R.id.FenceTitle);
         title.setText("Fence Material Calculator");
         TextView inp1 = findViewById(R.id.Input1Label);
@@ -42,7 +44,7 @@ public class FenceCalc extends AppCompatActivity {
         TextView input3_Label = findViewById(R.id.input3_Label);
         input3_Label.setText("Enter third length:");
 
-
+// Sends user input to the results activity
         Button calc_fence = findViewById(R.id.calc_fence);
         calc_fence.setText("Calculate");
         calc_fence.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +60,7 @@ public class FenceCalc extends AppCompatActivity {
                 startActivity(calc_results);
 
             }
-        });        
+        });
 
 
         //Go to Main Activity
@@ -71,5 +73,4 @@ public class FenceCalc extends AppCompatActivity {
             }
         });
     }
-
 }
