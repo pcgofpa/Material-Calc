@@ -41,8 +41,6 @@ public class FenceCalc extends AppCompatActivity {
         input2_Label.setText("Enter second length:");
         TextView input3_Label = findViewById(R.id.input3_Label);
         input3_Label.setText("Enter third length:");
-        TextView perim = findViewById(R.id.perim);
-
 
 
         Button calc_fence = findViewById(R.id.calc_fence);
@@ -54,10 +52,13 @@ public class FenceCalc extends AppCompatActivity {
                 int length_2 = Integer.parseInt(input2.getText().toString());
                 int length_3 = Integer.parseInt(input3.getText().toString());
                 int perimeter = length_1 + length_2 + length_3;
-                perim.setText("Total measured length: " + Integer.toString(perimeter));
+                Intent calc_results = new Intent(FenceCalc.this, FenceResults.class);
+                String p_result = String.valueOf(perimeter);
+                calc_results.putExtra("p_result", p_result);
+                startActivity(calc_results);
 
             }
-        });
+        });        
 
 
         //Go to Main Activity
