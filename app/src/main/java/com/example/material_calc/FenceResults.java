@@ -25,8 +25,6 @@ public class FenceResults extends AppCompatActivity {
         Double post = Math.ceil((x/8)+1);
         Double run = Math.ceil((x/8)*3);
 
-
-
 /* Find all of the text views */
         fen_res_title = findViewById(R.id.fen_res_title);
         perim_result = findViewById(R.id.perim_result);
@@ -41,6 +39,6 @@ public class FenceResults extends AppCompatActivity {
         post_result.setText(String.valueOf(post) + " Posts needed");
         picket_result.setText(String.valueOf(pick) + " Pickets needed");
         runner_result.setText(String.valueOf(run) + " Runners needed");
-        concrete_result.setText(String.valueOf(post) + " 50 lb. bags of concrete.");
+        concrete_result.setText(String.valueOf(post) + ": 50 lb. bags of concrete.");
     }
 }
