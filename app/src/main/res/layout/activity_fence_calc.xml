@@ -5,6 +5,7 @@
     style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center|center_vertical"
     android:background="@drawable/floor_background"
     android:textAlignment="center"
     tools:context=".FenceCalc">
@@ -17,9 +18,9 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="numberSigned"
-        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#001a00"
+        android:background="#00e6e6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input2" />
 
@@ -27,12 +28,14 @@
         android:id="@+id/Home"
         android:layout_width="104dp"
         android:layout_height="64dp"
-        android:layout_marginStart="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="58dp"
         android:layout_marginBottom="60dp"
-        android:backgroundTint="#1f1f7a"
-        android:textColor="#ffffff"
+        android:backgroundTint="#000066"
+        android:textColor="#33ff33"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/calc_fence" />
 
     <TextView
         android:id="@+id/Input1Label"
@@ -40,9 +43,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#001a00"
+        android:background="#00e6e6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FenceTitle" />
 
@@ -52,22 +55,22 @@
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#660000"
         android:ems="10"
         android:inputType="numberSigned"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:background="#00e6e6"
+        android:textColor="#001a00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FenceTitle" />
 
     <TextView
         android:id="@+id/FenceTitle"
-        android:layout_width="296dp"
+        android:layout_width="348dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
-        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#ccffff"
+        android:background="#001a1a"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,9 +82,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:background="#00e6e6"
+        android:textColor="#001a00"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Input1Label" />
 
@@ -91,9 +94,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:background="#00e6e6"
+        android:textColor="#001a00"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input2_Label" />
 
@@ -105,9 +108,9 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="numberSigned"
-        android:background="#660000"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:background="#00e6e6"
+        android:textColor="#001a00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input1" />
 
@@ -115,11 +118,11 @@
         android:id="@+id/calc_fence"
         android:layout_width="160dp"
         android:layout_height="64dp"
-        android:layout_marginStart="126dp"
-        android:layout_marginEnd="125dp"
-        android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toTopOf="@+id/Home"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#006600"
+        android:textColor="#ccffcc"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
