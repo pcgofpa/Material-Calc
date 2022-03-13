@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_logo"
+    android:background="@drawable/floor_background"
     tools:context=".MainActivity">
 
     <Button
@@ -13,7 +13,8 @@
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="104dp"
-        android:backgroundTint="#1f1f7a"
+        android:backgroundTint="#001a1a"
+        android:textColor="#ccffff"
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,8 +25,8 @@
         android:layout_height="80dp"
         android:layout_marginTop="104dp"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="#009900"
-        android:textColor="#e0e0eb"
+        android:backgroundTint="#003300"
+        android:textColor="#b3ffb3"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
