@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.Objects;
 
 public class FenceCalc extends AppCompatActivity {
 
@@ -62,7 +61,7 @@ public class FenceCalc extends AppCompatActivity {
 
 
         //Go to Main Activity
-        Button Home = (Button) findViewById(R.id.Home);
+        Button Home = findViewById(R.id.Home);
         Home.setText("Home");
         Home.setOnClickListener(new View.OnClickListener() {
             @Override

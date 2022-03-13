@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Set OnClick Listener to Move to Fence Calculator Activity
-        Button Fence = (Button) findViewById(R.id.Fence);
+        Button Fence = findViewById(R.id.Fence);
         Fence.setText("Fence Calculator");
         Fence.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button Floor = (Button) findViewById(R.id.Floor);
+        Button Floor = findViewById(R.id.Floor);
         Floor.setText("Flooring Calculator");
         Floor.setOnClickListener(new View.OnClickListener() {
             @Override
