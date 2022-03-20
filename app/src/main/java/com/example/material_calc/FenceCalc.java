@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class FenceCalc extends AppCompatActivity {
+    
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -63,7 +64,7 @@ public class FenceCalc extends AppCompatActivity {
 
 
         //Go to Main Activity
-        Button Home = (Button) findViewById(R.id.Home);
+        Button Home = findViewById(R.id.Home);
         Home.setText("Home");
         Home.setOnClickListener(new View.OnClickListener() {
             @Override
