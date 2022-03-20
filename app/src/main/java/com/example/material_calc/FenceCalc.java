@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputFilter;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,10 +23,13 @@ public class FenceCalc extends AppCompatActivity {
 // Set Default value for edit Text inputs
         input1 = findViewById(R.id.input1);
         input1.setText("0");
+        input1.setFilters(new InputFilter[]{new MaxInput("0", "1000000")});
         input2 = findViewById(R.id.input2);
         input2.setText("0");
+        input2.setFilters(new InputFilter[]{new MaxInput("0", "1000000")});
         input3 = findViewById(R.id.input3);
         input3.setText("0");
+        input3.setFilters(new InputFilter[]{new MaxInput("0", "1000000")});
 
 
         //Set TextView Label Text

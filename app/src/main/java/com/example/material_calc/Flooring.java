@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.text.InputFilter;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -31,7 +32,9 @@ public class Flooring extends AppCompatActivity {
 
 //get input
         len_in = findViewById(R.id.len_in);
+        len_in.setFilters(new InputFilter[]{new MaxInput("0", "3000")});
         wid_in = findViewById(R.id.wid_in);
+        wid_in.setFilters(new InputFilter[]{new MaxInput("0", "3000")});
 
 //Calculate Button
         Button FloorCalc = findViewById(R.id.FloorCalc);
