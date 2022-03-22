@@ -37,3 +37,6 @@ For contractors this application can assist with generating quotes as this appli
   Example of the Flooring Material Calculator screen. The floor material calculator calculates the area provided by the user. It then adds 10% to the area before giving the user
   a square footage to order. The extra 10% is to account for errors in cutting the materials, or sections of the material that is bad. 
 </p>
+
+<h2 align="center"> Testing </h2>
+<p align = "center"> As a part of the testing process we discovered that if the user was able to input too large of a number, it would either lead to the application crashing or the app returning an exponent result. Therefore, we implemented a max value input function on all user inputs.
