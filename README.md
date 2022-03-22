@@ -39,4 +39,7 @@ For contractors this application can assist with generating quotes as this appli
 </p>
 
 <h2 align="center"> Testing </h2>
-<p align = "center"> As a part of the testing process we discovered that if the user was able to input too large of a number, it would either lead to the application crashing or the app returning an exponent result. Therefore, we implemented a max value input function on all user inputs.
+<p align = "center"> 
+  <ul>
+    <li>As a part of the testing process we discovered that if the user was able to input too large of a number, it would either lead to the application crashing or the app returning an exponent result. Therefore, we implemented a max value input function on all user inputs.</li>
+  </ul>
