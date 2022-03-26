@@ -10,12 +10,12 @@ For contractors this application can assist with generating quotes as this appli
 
 <h2 align="center"> Students who created this project </h2>
 
-<p align="center">
+<p align="center"> Project Contributions made by:
   <ol>
     <li> Ginter, Philip</li>
     <li> Kennedy, Joshua</li>
     <li> Kraffert, Nicholas</li>
-    <li>Rodriguez, Shantay</li>
+    <li> Rodriguez, Shantay</li>
   </ol>
 </p>
 
