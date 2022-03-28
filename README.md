@@ -32,14 +32,14 @@ For contractors this application can assist with generating quotes as this appli
 
 <h2 align="center">Fence Calculator Activity</h2>
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/59085936/160477084-3b46dc69-00b7-4479-9d69-15e2fc6ad81c.png">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160477084-3b46dc69-00b7-4479-9d69-15e2fc6ad81c.png" alt="Input screen for the fence calculator">
   
   This screen within the application allows the user to input up to 3 lengths. The default value is 0 with a max value of 1,000,000 ft. When the user hits calculate, the application will add the values together and carry the perimeter to the Fence Results Activity.
 </p>
 
 <h2 align="center">Fence Results Activity</h2>
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/59085936/160478489-b17e473a-e584-4f8f-925a-611bdcb1a0c9.png">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160478489-b17e473a-e584-4f8f-925a-611bdcb1a0c9.png" alt="Fence Results screen">
   
   <ul>
     <li>The fence results activity will display the total perimeter entered.</li>
@@ -52,8 +52,8 @@ For contractors this application can assist with generating quotes as this appli
 
 <h2 align="center"> Flooring Material Calculator </h2>
 <p align = "center">
-  <img width="450" src="https://user-images.githubusercontent.com/59085936/156916314-f14aadf9-a90d-40f1-90da-897ba0a25943.png" alt="Flooring Material Calculator">
-  
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160480798-65c39bb2-c591-4374-b375-dfb2a7ebd3a8.png" alt="Flooring Material Calculator">  
+
   Example of the Flooring Material Calculator screen. The floor material calculator calculates the area provided by the user. It then adds 10% to the area before giving the user
   a square footage to order. The extra 10% is to account for errors in cutting the materials, or sections of the material that is bad. 
 </p>
@@ -62,4 +62,5 @@ For contractors this application can assist with generating quotes as this appli
 <p align = "center"> 
   <ul>
     <li>As a part of the testing process we discovered that if the user was able to input too large of a number, it would either lead to the application crashing or the app returning an exponent result. Therefore, we implemented a max value input function on all user inputs.</li>
+    <li>In testing we found that the flooring calculator results were obscured on smaller screens so the location results were displayed was changed.</li>
   </ul>
