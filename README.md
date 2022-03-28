@@ -30,6 +30,26 @@ For contractors this application can assist with generating quotes as this appli
   This home screen can have the logo of your company replace the current generic logo.
 </p>
 
+<h2 align="center">Fence Calculator Activity</h2>
+<p align="center">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160477084-3b46dc69-00b7-4479-9d69-15e2fc6ad81c.png">
+  
+  This screen within the application allows the user to input up to 3 lengths. The default value is 0 with a max value of 1,000,000 ft. When the user hits calculate, the application will add the values together and carry the perimeter to the Fence Results Activity.
+</p>
+
+<h2 align="center">Fence Results Activity</h2>
+<p align="center">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160478489-b17e473a-e584-4f8f-925a-611bdcb1a0c9.png">
+  
+  <ul>
+    <li>The fence results activity will display the total perimeter entered.</li>
+    <li>Based off the perimeter the application will calculate the number of 4x4 posts needed</li>
+    <li>Number of pickets needed</li>
+    <li>Number of 2x4 runners needed</li>
+    <li>Display the number of 50lb. bags of concrete needed. </li>
+  </ul>  
+</p>
+
 <h2 align="center"> Flooring Material Calculator </h2>
 <p align = "center">
   <img width="450" src="https://user-images.githubusercontent.com/59085936/156916314-f14aadf9-a90d-40f1-90da-897ba0a25943.png" alt="Flooring Material Calculator">
