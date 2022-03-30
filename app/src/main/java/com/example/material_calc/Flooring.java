@@ -3,6 +3,7 @@ package com.example.material_calc;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputFilter;
 import android.view.View;
@@ -50,6 +51,16 @@ to account for mistakes with cutting. */
                 double flooring_mat = (area_result*x);
                 int rounded_floor = (int) Math.ceil(flooring_mat);
                 tot_area.setText("Adding the 10% to account for cutting order: " + Double.toString(rounded_floor) + " sq. ft.");
+            }
+        });
+
+        //Go to Main Activity
+        Button Home = findViewById(R.id.floor_home);
+        Home.setText("Home");
+        Home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Flooring.this, MainActivity.class));
             }
         });
 

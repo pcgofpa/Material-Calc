@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class FenceResults extends AppCompatActivity {
@@ -40,5 +42,15 @@ public class FenceResults extends AppCompatActivity {
         picket_result.setText(String.valueOf(pick) + " Pickets needed");
         runner_result.setText(String.valueOf(run) + " Runners needed");
         concrete_result.setText(String.valueOf(post) + ": 50 lb. bags of concrete.");
+
+        //Go to Main Activity
+        Button Home = findViewById(R.id.results_home);
+        Home.setText("Home");
+        Home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FenceResults.this, MainActivity.class));
+            }
+        });
     }
 }
