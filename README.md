@@ -32,14 +32,15 @@ For contractors this application can assist with generating quotes as this appli
 
 <h2 align="center">Fence Calculator Activity</h2>
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/59085936/160477084-3b46dc69-00b7-4479-9d69-15e2fc6ad81c.png" alt="Input screen for the fence calculator">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160943131-1693c7dd-ad77-40c4-a5e3-6f7fc3f75e7b.png" alt="Input screen for the fence calculator">
   
+
   This screen within the application allows the user to input up to 3 lengths. The default value is 0 with a max value of 1,000,000 ft. When the user hits calculate, the application will add the values together and carry the perimeter to the Fence Results Activity.
 </p>
 
 <h2 align="center">Fence Results Activity</h2>
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/59085936/160478489-b17e473a-e584-4f8f-925a-611bdcb1a0c9.png" alt="Fence Results screen">
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160943185-44fc6997-58ee-43df-a16c-dc2eb8100ed5.png" alt="Fence Results screen">
   
   <ul>
     <li>The fence results activity will display the total perimeter entered.</li>
@@ -52,7 +53,7 @@ For contractors this application can assist with generating quotes as this appli
 
 <h2 align="center"> Flooring Material Calculator </h2>
 <p align = "center">
-  <img width="450" src="https://user-images.githubusercontent.com/59085936/160480798-65c39bb2-c591-4374-b375-dfb2a7ebd3a8.png" alt="Flooring Material Calculator">  
+  <img width="450" src="https://user-images.githubusercontent.com/59085936/160943230-f1b40421-df1b-4249-b12e-ba83ff3ea212.png" alt="Flooring Material Calculator">  
 
   Example of the Flooring Material Calculator screen. The floor material calculator calculates the area provided by the user. It then adds 10% to the area before giving the user
   a square footage to order. The extra 10% is to account for errors in cutting the materials, or sections of the material that is bad. 
